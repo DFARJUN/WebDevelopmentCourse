@@ -5,23 +5,29 @@
     src: url('../font/TsMatka-Bold.ttf') format('truetype');
 }
 
-
-
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Heebo:400,500,700|Pacifico&subset=hebrew');
 
 body {
     direction: rtl;
     background-image: url('../Images/back.png');
-    background-size: 700px 700px;
+    background-size: 1000px auto;
     background-attachment: fixed;
-    background-position: center;
+    background-position:top left;
     scroll-behavior: smooth;
 }
 
-header {
-    font-family: 'TsMatka-Bold';
-    font-weight: bold;
 
+header {
+     font-family: 'TsMatka-Bold';
+    font-weight: bold;
 }
+
+.en {
+    font-weight:700;
+    font-family: 'Amatic SC', cursive;
+}
+
+
 
 
 #container {
@@ -51,7 +57,7 @@ header {
     #secnav ul {
         list-style: none;
         margin: 0px 0px;
-        height: 75px;
+        height: 41px;
         margin: 0px 0px;
         padding: 0px 00px;
         display: block;
@@ -87,13 +93,12 @@ header {
 }
 
 #maina {
-    height: 70px;
+    height: 41px;
     float: right;
     display: inline-block;
-    width: 209px;
+    width: 147px;
     background-image: url('../Images/logo.png');
-    background-size: 209px 70px;
-    margin-top:5PX;
+    background-size: 147px 41px;
 }
 
 #mainaa {
@@ -127,12 +132,63 @@ header {
     position: left;
 }
 
-.contactlogo:hover{
-    background-position:right;
+#contactu a:hover .contactlogo {
+    background-position: right;
 }
 
+#contactu {
+    width: 960px;
+    background-color: white;
+    height: 600px;
+    margin-top: 90px;
+    background-image: url('../Images/coffe.gif');
+    background-position-x: 729px;
+    background-position-y: 15px;
+    background-repeat: no-repeat;
+}
+
+#contactu a {
+    float: left;
+    font-family: Heebo;
+    text-align: left;
+    display: block;
+    width: 150px;
+    height: 70px;
+    text-decoration: none;
+}
+
+.contactspan {
+    padding: 20px 20px;
+    position: relative;
+    bottom: 25px;
+    left: 42px;
+    font-size: 18px;
+    font-family: Heebo;
+    color: #3C3C3C;
+}
+#contactu ol {
+    position: relative;
+    bottom: 39px;
+    left: 50px;
+}
+
+#contactu ol li {
+    width: 200px;
+    list-style: none;
+    display: block;
+    direction: ltr;
+    text-align: left;
+    margin-right: 650px;
+}
+
+    #contactu ol li a {
+        width: 200px;
+        float: left;
+        list-style: none;
+        display: block;
+    }
+
 #facebook {
-    margin-top: 30px;
     background-image: url('../Images/contact/sprite_instabook.png');
 }
 
@@ -162,31 +218,25 @@ header {
 margin-top:90px;
 }
 
-.para2{
-    height:50px;
-    width:960px;
+.para2 {
+    height: 50px;
+    width: 960px;
+    background-color: white;
+    background-image: url('../Images/line.png');
+    background-size: 960px 3px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
-youtube {
-    float: left;
-    margin-top: 75px;
-    margin-left: 60px;
-    background-image: url('../Images/youtube.png');
-    background-size: 375px 243px;
-    padding-top: 19px;
-    padding-right: 90px;
-    padding-left: 15px;
-    padding-bottom: 20px;
-}
 
 #youtube {
     float: left;
-    margin-top: 45px;
+    margin-top: 27px;
     margin-left: 33px;
     background-image: url(../Images/youtube.png);
     background-size: 475px 301px;
-    padding-top: 10px;
+    padding-top: 9px;
     padding-right: 101px;
     padding-left: 14px;
     padding-bottom: 7px;
@@ -210,17 +260,20 @@ youtube {
     font-size: 30px;
     float: right;
     margin-right: 33px;
-    margin-top: 45px;
+    margin-top: 27px;
     display: inline-block;
 }
 
 .paralexp {
     color: #3C3C3C;
-    font-size: 20px;
+    font-size: 16px;
     float: right;
     display: inline-block;
     width: 380px;
     margin-right: 33px;
+    margin-top: 0px;
+    font-weight: 500;
+    font-family: Heebo;
 }
 
 #trump {
@@ -232,7 +285,7 @@ youtube {
     height: 296px;
     float: left;
     background-size: 475px 316px;
-    position: relative;
+    // position: relative;
     right: var(--trump-x);
 }
 
@@ -245,7 +298,7 @@ youtube {
     height: 296px;
     float: left;
     background-size: 475px 316px;
-    position: relative;
+    // position: relative;
     right: var(--mania-x);
 }
 
@@ -261,5 +314,199 @@ youtube {
     width:960px;
     height: 565px;
     margin:90px 0px;
+
+}
+
+div.mainlogo {
+    padding-right: 90pt;
+    background-image: url('../Images/onlylogo.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 109px;
+    padding-top: 13px;
+    margin-right: 292px;
+    border-top:70px solid white;
+}
+
+h1.mainlogo {
+    margin-bottom: 0px;
+    font-size: 60pt;
+    margin-top:0px;
+}
+
+h2 {
+    color:#00c0c0;
+    margin-top:0px;
+    font-size:30px;
+    margin-bottom:0px;
+}
+
+#containerstart{
+    background-color:white;
+    width:960px;
+    height:500px;
+    margin:0 auto;
+
+}
+
+#mainp {
+    width: 375px;
+    margin-right: 292px;
+    margin-top: 5px;
+    font-size:17px;
+}
+
+.shura {
+    display: inline-block;
+    background-color: #ccf2f2;
+    margin-top: 7px;
+    padding: 0px 2px;
+    font-weight: bold;
+}
+
+span.savta {
+    font-family: 'Pacifico', cursive;
+    color: #f82471;
+    font-size:24px;
+}
+
+img.savta {
+    background-image: url('../Images/laptop.png');
+    margin-top: 27px;
+    margin-right: 33px;
+    padding: 25px 50px 41px 50px;
+    width: 375px;
+    height: 250px;
+    float: right;
+    background-size: 475px 316px;
+}
+
+#buttonlt {
+    color: white;
+    background-image: url('../Images/buttonlt.png');
+    background-position: left;
+    background-size: 380px 48px;
+    padding: 2px 26px;
+    font-size: 45px;
+    text-decoration: none;
+    margin-right: 416px;
+}
+
+#buttonlt:hover {
+    color:black;
+    background-position:right;
+}
+
+img.wed {
+    background-image: url('../Images/wedback.png');
+    margin-top: 27px;
+    margin-right: 50px;
+    margin-left: 40px;
+    padding: 13px 7.5px 14px 7.5px;
+    width: 250px;
+    height: 500px;
+    float: right;
+    background-size: 265px 527px;
+}
+
+section.wed {
+    height: 600px;
+    background-color: white;
+    width: 960px;
+}
+
+img.scout {
+    background-image: url('../Images/photo2.png');
+    margin-top: 27px;
+    margin-right: 50px;
+    margin-left: 40px;
+    padding: 15px 12.5px;
+    width: 300px;
+    height: 426px;
+    float: right;
+    background-size: 325px 456px;
+}
+
+section.scout {
+    height: 480px;
+    background-color: white;
+    width: 960px;
+}
+
+#mainnav ul {
+    list-style: none;
+    margin: 0px 0px;
+    height: 41px;
+    margin: 0px 80px;
+    padding: 0px 00px;
+    display: block;
+    width: 800px;
+    background-color: white;
+}
+
+    #mainnav ul li {
+        display: inline-block;
+        float: left;
+    }
+
+
+        #mainnav ul li a {
+            display: block;
+            color: #3C3C3C;
+            width: 200px;
+            height: 30px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+        }
+
+            #mainnav ul li a:hover div {
+                background-position: right;
+            }
+
+.mainav {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-size: 100px 50px;
+    background-position: left;
+    margin: 0px 75px 10px;
+}
+
+#graphicnav {
+    background-image: url('../Images/sprite_uxi.png');
+}
+
+#cvnav {
+    background-image: url('../Images/sprite_cv.png');
+}
+
+#uxinav {
+    background-image: url('../Images/sprite_desing.png');
+}
+
+#learnav {
+    background-image: url('../Images/sprite_leraning.png');
+}
+
+#protdor {
+    background-image: url('../Images/photo.png');
+    margin-top: 27px;
+    margin-left: 33px;
+    padding: 10px 12.5px;
+    width: 450px;
+    height: 296px;
+    float: left;
+    background-size: 475px 316px;
+}
+
+.para2.para4 {
+    width:800px;
+    margin: 0px 80px;
+}
+
+#contacth2 {
+    margin:27px 33px 0px 0px;
+    padding-top:27px;
 
 }

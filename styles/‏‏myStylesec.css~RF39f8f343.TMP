@@ -1,0 +1,358 @@
+
+@font-face {
+    font-family: 'TsMatka-Bold';
+    src: url('../font/TsMatka-Bold.otf') format('opentype');
+    src: url('../font/TsMatka-Bold.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Heebo:400,500,700|Pacifico|Tillana&subset=hebrew');
+
+body {
+    direction: rtl;
+    background-image: url('../Images/back.png');
+    background-size: 1000px auto;
+    background-attachment: fixed;
+    background-position:top left;
+    scroll-behavior: smooth;
+}
+
+
+header {
+     font-family: 'TsMatka-Bold';
+    font-weight: bold;
+}
+
+.en {
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    height: auto;
+    margin-top:75px;
+}
+
+
+#secdiv {
+    display: block;
+    width: 960px;
+    background-size: 960px auto;
+    height: 00px;
+    margin-bottom: 0px;
+    position: fixed;
+}
+
+#secnav {
+    margin-top: 0px;
+    margin-right: 0px;
+    position: fixed;
+    top: 00px;
+}
+
+    #secnav ul {
+        list-style: none;
+        margin: 0px 0px;
+        height: 41px;
+        margin: 0px 0px;
+        padding: 0px 00px;
+        display: block;
+        width: 960px;
+        background-color: white;
+    }
+
+#secnav ul li {
+    display: inline-block;
+    float: left;
+    }
+
+
+    #secnav ul li a {
+        display: block;
+         color: #3C3C3C;
+        width: 100px;
+        height: 30px;
+        text-decoration: none;
+        text-align: center;
+         font-size:20px;
+        padding-top:10PX;
+    }
+
+        #secnav ul li a:hover {
+            border-bottom: 1px solid #00C0C0; 
+                
+        }
+
+#here {
+    background-color: #ccf2f2;
+    border-bottom: 1px solid #00C0C0
+}
+
+#maina {
+    height: 41px;
+    float: right;
+    display: inline-block;
+    width: 147px;
+    background-image: url('../Images/logo.png');
+    background-size: 147px 41px;
+}
+
+#mainaa {
+    height: 200px;
+    float: right;
+    display: flex;
+    width: 597px;
+    background-image: url('../Images/logo.png');
+    position: relative;
+    background-size: 597px 200px;
+}
+
+#cvfile {
+    width: 960px;
+    background-color: white;
+    margin: 20px auto;
+    border-bottom:20px solid white;
+    margin-top: 20px;
+
+    background-size: 800px 1093px;
+}
+
+.contactlogo {
+    display:block;
+    height: 40px;
+    width: 40px;
+    background-size: 80px 40px;
+    background-position: left;
+       margin-right: 780px;
+    margin-top:15px;
+    position: left;
+}
+
+.contactlogo:hover{
+    background-position:right;
+}
+
+#facebook {
+    margin-top: 30px;
+    background-image: url('../Images/contact/sprite_instabook.png');
+}
+
+#linkedin {
+    background-image: url('../Images/contact/sprite_linkedin.png');
+}
+
+#email {
+    background-image: url('../Images/contact/sprite_email.png');
+}
+
+#phone {
+    background-image: url('../Images/contact/sprite_phone.png');
+}
+
+#instagram {
+    background-image: url('../Images/contact/sprite_instagram.png');
+}
+
+.par1 {
+    height: 370px;
+    background-color: white;
+    width: 960px;
+}
+
+.para {
+margin-top:90px;
+}
+
+.para2 {
+    height: 50px;
+    width: 960px;
+    background-color: white;
+    background-image: url('../Images/line.png');
+    background-size: 960px 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+youtube {
+    float: left;
+    margin-top: 75px;
+    margin-left: 60px;
+    background-image: url('../Images/youtube.png');
+    background-size: 375px 243px;
+    padding-top: 19px;
+    padding-right: 90px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+#youtube {
+    float: left;
+    margin-top: 45px;
+    margin-left: 33px;
+    background-image: url(../Images/youtube.png);
+    background-size: 475px 301px;
+    padding-top: 9px;
+    padding-right: 101px;
+    padding-left: 14px;
+    padding-bottom: 7px;
+}   
+
+
+
+
+
+:root {
+    --mania-x: 0px;
+    --trump-x: 0px;
+
+}
+
+
+
+.paralexc {
+    margin-bottom: 10px;
+    color: #00c0c0;
+    font-size: 30px;
+    float: right;
+    margin-right: 33px;
+    margin-top: 45px;
+    display: inline-block;
+}
+
+.paralexp {
+    color: #3C3C3C;
+    font-size: 16px;
+    float: right;
+    display: inline-block;
+    width: 380px;
+    margin-right: 33px;
+    margin-top: 0px;
+    font-weight: 500;
+    font-family: Heebo;
+}
+
+#trump {
+    background-image: url('../Images/photo.png');
+    margin-top: 27px;
+    margin-left: 33px;
+    padding: 10px 12.5px;
+    width: 450px;
+    height: 296px;
+    float: left;
+    background-size: 475px 316px;
+    // position: relative;
+    right: var(--trump-x);
+}
+
+#mania {
+    background-image: url('../Images/photo.png');
+    margin-top: 27px;
+    margin-left: 33px;
+    padding:10px 12.5px;
+    width: 450px;
+    height: 296px;
+    float: left;
+    background-size: 475px 316px;
+    // position: relative;
+    right: var(--mania-x);
+}
+
+#hamasa {
+    float: left;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 33px;
+}
+
+.paro {
+    background-color:white;
+    width:960px;
+    height: 565px;
+    margin:90px 0px;
+
+}
+
+div.mainlogo {
+    padding-right: 90pt;
+    background-image: url('../Images/onlylogo.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 109px;
+    padding-top: 13px;
+    margin-right: 292px;
+    border-top:90px solid white;
+}
+
+h1.mainlogo {
+    margin-bottom: 0px;
+    font-size: 60pt;
+    margin-top:0px;
+}
+
+h2.mainlogo {
+    color:#00c0c0;
+    margin-top:0px;
+    font-size:28pt;
+    margin-bottom:0px;
+}
+
+#containerstart{
+    background-color:white;
+    width:960px;
+    margin:0 auto;
+
+}
+
+#mainp {
+    width: 375px;
+    margin-right: 292px;
+    margin-top: 5px;
+    font-size:17px;
+}
+
+.shura {
+    display: inline-block;
+    background-color: #ccf2f2;
+    margin-top: 7px;
+    padding: 2px 2px;
+    font-weight: bold;
+}
+
+span.savta {
+    font-family: 'Pacifico', cursive;
+    color: #f82471;
+    font-size:24px;
+}
+
+img.savta {
+    background-image: url('../Images/laptop.png');
+    margin-top: 27px;
+    margin-left: 33px;
+    padding: 25px 50px 41px 50px;
+    width: 375px;
+    height: 250px;
+    float: left;
+    background-size: 475px 316px;
+}
+
+#buttonlt {
+    color: white;
+    background-image: url('../Images/buttonlt.png');
+    background-position: left;
+    background-size: 380px 48px;
+    padding: 2px 26px;
+    font-size: 45px;
+    text-decoration: none;
+    margin-right: 416px;
+}
+
+#buttonlt:hover {
+    color:black;
+    background-position:right;
+}
+
