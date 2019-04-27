@@ -307,6 +307,9 @@ margin-top:90px;
     margin-top: 45px;
     margin-bottom: 45px;
     margin-left: 33px;
+    background-image: url('../Images/IPAD.png');
+    padding:30PX 25PX 50PX 25PX;
+    background-size: 450px 680px;
 }
 
 .paro {
@@ -315,6 +318,10 @@ margin-top:90px;
     height: 565px;
     margin:90px 0px;
 
+}
+
+.paro.learnp {
+    height:800px;
 }
 
 div.mainlogo {
@@ -509,4 +516,9 @@ section.scout {
     margin:27px 33px 0px 0px;
     padding-top:27px;
 
+}
+
+h2.mainlogo {
+
+font-size:37px;
 }
