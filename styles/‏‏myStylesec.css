@@ -9,10 +9,9 @@
 
 body {
     direction: rtl;
-    background-image: url('../Images/back.png');
-    background-size: 1000px auto;
-    background-attachment: fixed;
-    background-position:top left;
+    background: url('../Images/dot.png') fixed,url('../Images/dotted.png');
+    background-size: 800px auto;
+    background-position: top left;
     scroll-behavior: smooth;
 }
 
@@ -96,20 +95,11 @@ header {
     height: 41px;
     float: right;
     display: inline-block;
-    width: 147px;
+    width: 130px;
     background-image: url('../Images/logo.png');
-    background-size: 147px 41px;
+    background-size: 130px 41px;
 }
 
-#mainaa {
-    height: 200px;
-    float: right;
-    display: flex;
-    width: 597px;
-    background-image: url('../Images/logo.png');
-    position: relative;
-    background-size: 597px 200px;
-}
 
 #cvfile {
     width: 960px;
