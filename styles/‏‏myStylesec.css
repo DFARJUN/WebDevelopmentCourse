@@ -51,6 +51,7 @@ header {
     margin-top: 0px;
     margin-right: 0px;
     position: fixed;
+    z-index:100;
     top: 00px;
 }
 
@@ -63,6 +64,7 @@ header {
         display: block;
         width: 960px;
         background-color: white;
+        z-index: 100;
     }
 
 #secnav ul li {
@@ -136,6 +138,8 @@ header {
     background-position-x: 729px;
     background-position-y: 15px;
     background-repeat: no-repeat;
+    position:static;
+    z-index:-1;
 }
 
 #contactu a {
@@ -146,6 +150,8 @@ header {
     width: 150px;
     height: 70px;
     text-decoration: none;
+    position:static;
+    z-index:-1;
 }
 
 .contactspan {
@@ -351,7 +357,8 @@ h2 {
     width: 375px;
     margin-right: 292px;
     margin-top: 5px;
-    font-size:17px;
+    font-size:21px;
+    margin-bottom:15px;
 }
 
 .shura {
