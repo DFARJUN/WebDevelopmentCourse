@@ -107,10 +107,8 @@ header {
 #cvfile {
     width: 960px;
     background-color: white;
-    margin: 20px auto;
+    margin: 10px auto;
     border-bottom:20px solid white;
-    margin-top: 20px;
-
     background-size: 800px 1093px;
 }
 
