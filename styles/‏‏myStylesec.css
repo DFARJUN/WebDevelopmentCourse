@@ -6,11 +6,11 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Heebo:400,500,700|Pacifico&subset=hebrew');
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Heebo:400,500,700|Pacifico" rel="stylesheet" >
 
 body {
     direction: rtl;
-    background: url('../Images/dot.png') fixed,url('../Images/dotted.png');
+    background: url('../Images/dot.png') fixed,
+        url('../Images/dotted.png');
     background-size: 800px auto;
     background-position: top left;
     scroll-behavior: smooth;
@@ -253,7 +253,6 @@ margin-top:90px;
     margin-right: 33px;
     margin-top: 27px;
     display: inline-block;
-    direction: rtl;
 }
 
 .paralexp {
