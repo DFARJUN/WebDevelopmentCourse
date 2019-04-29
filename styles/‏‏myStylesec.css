@@ -91,7 +91,7 @@ header {
 
 #here {
     background-color: #ccf2f2;
-    border-bottom: 1px solid #00C0C0
+    border-bottom: 1px solid #00C0C0;
 }
 
 #maina {
@@ -235,7 +235,7 @@ margin-top:90px;
     padding-right: 101px;
     padding-left: 14px;
     padding-bottom: 7px;
-}   
+}
 
 
 
@@ -244,7 +244,9 @@ margin-top:90px;
 :root {
     --mania-x: 0px;
     --trump-x: 0px;
-
+    --height-win: 0px;
+    --width-win: 0px;
+    --width-scout: 0px;
 }
 
 
@@ -517,4 +519,69 @@ section.scout {
 h2.mainlogo {
 
 font-size:37px;
+}
+
+/* רקע */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 140;
+    padding-top: 65px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-image: url('../Images/dot.png');
+    background-size: 800px auto;
+    background-color: rgb(250,250,250,0.95);
+    background-position: top left;
+}
+
+/* חלון */
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    max-width: 1200px;
+}
+
+/* כפתור סגירה */
+.close {
+    color: #3C3C3C;
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+    .close:hover{
+        color: #00c0c0;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* ברירת מחדל להסתרה */
+.mySlides {
+    display: none;
+    margin: auto auto;
+}
+
+/*הובר לתמונות*/
+.photohover:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.winwin {
+    height: var(--height-win) ;
+}
+
+#weddsize {
+    width: var(--width-win);
+}
+
+#scoutsize {
+    width: var(--width-scout);
 }
