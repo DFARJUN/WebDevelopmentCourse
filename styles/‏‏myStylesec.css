@@ -105,11 +105,18 @@ header {
 
 
 #cvfile {
-    width: 960px;
+    width: 500px;
     background-color: white;
     margin: 10px auto;
-    border-bottom:20px solid white;
-    background-size: 800px 1093px;
+    border-bottom: 20px solid white;
+    padding: 30px 20px;
+    background-image: url('../Images/photo2.png');
+    background-size: 540px 744px;
+}
+
+#cvsec{
+    width:500px;
+    margin:auto;
 }
 
 .contactlogo {
@@ -301,12 +308,12 @@ margin-top:90px;
 
 #hamasa {
     float: left;
-    margin-top: 45px;
+    margin-top: 27px;
     margin-bottom: 45px;
     margin-left: 33px;
     background-image: url('../Images/IPAD.png');
-    padding:30PX 25PX 50PX 25PX;
-    background-size: 450px 680px;
+    padding:20PX 20PX 30PX 20PX;
+    background-size: 340px 450px;
 }
 
 .paro {
@@ -318,7 +325,7 @@ margin-top:90px;
 }
 
 .paro.learnp {
-    height:800px;
+    height:600px;
 }
 
 div.mainlogo {
@@ -585,3 +592,22 @@ font-size:37px;
 #scoutsize {
     width: var(--width-scout);
 }
+
+#hamasabutton {
+    color: white;
+    position: relative;
+    display: inline-block;
+    background-image: url(../Images/buttonlt.png);
+    background-position: left;
+    background-size: 397px 37px;
+    padding: 2px 26px;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 33px;
+    margin-left: 80px;
+}
+
+#hamasabutton:hover {
+        color: black;
+        background-position: right;
+    }
