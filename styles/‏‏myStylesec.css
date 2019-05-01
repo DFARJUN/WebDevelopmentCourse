@@ -546,7 +546,7 @@ h2.mainlogo {
 font-size:37px;
 }
 
-/* רקע 
+ /*רקע*/ 
 .modal {
     display: none;
     position: fixed;
@@ -563,7 +563,7 @@ font-size:37px;
     background-position: top left;
 }
 
-/* חלון */
+ /*חלון*/ 
 .modal-content {
     position: relative;
     margin: auto;
@@ -571,7 +571,7 @@ font-size:37px;
     max-width: 1200px;
 }
 
-/* כפתור סגירה */
+ /*כפתור סגירה*/ 
 .close {
     color: #3C3C3C;
     position: absolute;
@@ -587,7 +587,7 @@ font-size:37px;
         cursor: pointer;
     }
 
-/* ברירת מחדל להסתרה */
+ /*ברירת מחדל להסתרה*/ 
 .mySlides {
     display: none;
     margin: auto auto;
@@ -638,7 +638,28 @@ font-size:37px;
     margin-left: 80px;
 }
 
-#hamasabutton:hover {
+    #hamasabutton:hover {
         color: black;
         background-position: right;
+        cursor: pointer;
     }
+
+#nohar {
+    background-image: url('../Images/buttonlt.png');
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 8px 14px;
+    margin-right: 50px;
+    background-size: 373px 42px;
+    font-family: Heebo;
+}
+
+    #nohar:hover {
+        color: black;
+        background-position: right;
+        cursor: pointer;
+        
+    }
+
+    
