@@ -465,6 +465,10 @@ section.scout {
     width: 960px;
 }
 
+#mainnav {
+    height:50px;
+}
+
 #mainnav ul {
     list-style: none;
     margin: 0px 0px;
@@ -495,7 +499,6 @@ section.scout {
             #mainnav ul li a:hover div {
                 background-position: right;
             }
-
 .mainav {
     display: block;
     height: 50px;
