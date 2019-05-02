@@ -272,6 +272,8 @@ margin-top:90px;
     --height-win: 0px;
     --width-win: 0px;
     --width-scout: 0px;
+    --position-main: top center;
+    
 }
 
 
@@ -381,9 +383,9 @@ h2 {
 #mainp {
     width: 375px;
     margin-right: 292px;
-    margin-top: 5px;
+    margin-top: 20px;
     font-size:19px;
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
 
 .shura {
@@ -662,4 +664,18 @@ font-size:37px;
         
     }
 
-    
+#hello {
+    background-image: url('../Images/look/2.png');
+    background-position: var(--position-main);
+    width: 180px;
+    height: 243px;
+    background-size: 540px 486px;
+    position: relative;
+    right: 600px;
+    bottom: 335px;
+}
+
+#mainsec {
+position:relative;
+left:130px;
+}

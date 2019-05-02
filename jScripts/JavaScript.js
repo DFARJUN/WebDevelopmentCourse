@@ -1,18 +1,35 @@
-﻿//window.onscroll = myFunction4;
-function myFunction4() {
-    var wind = window.innerHeight;
-    var wind2 = window.innerWidth;
-    var yoff = window.pageYOffset;
-    var dordor = document.getElementById("mania").getBoundingClientRect().y;
-    if ((wind / 2) < dordor && wind > dordor) {
-        var fff = dordor - (wind / 2)
-        if (fff < wind2-1200) {
- document.documentElement.style.setProperty('--mania-x', fff + "px");
+﻿window.onmousemove = movefunc;
+var wind = window.innerHeight;
+var wind2 = window.innerWidth;
+var wind12 = wind / 2;
+var wind213 = wind2 / 3;
+var wind223 = wind2 - wind213;
+
+function movefunc() {
+    var mux = event.clientX;
+    var muy = event.clientY;
+    if (muy > wind12 && mux < wind213) { document.documentElement.style.setProperty('--position-main', "bottom left"); }
+    else {
+        if (muy > wind12 && mux < wind223 && mux > wind213) { document.documentElement.style.setProperty('--position-main', "bottom center"); }
+        else {
+            if (muy > wind12 && mux > wind223) { document.documentElement.style.setProperty('--position-main', "bottom right"); }
+            else {
+                if (muy < wind12 && mux < wind213) { document.documentElement.style.setProperty('--position-main', "top left"); }
+                else {
+                    if (muy < wind12 && mux < wind223 && mux > wind213) { document.documentElement.style.setProperty('--position-main', "top center"); }
+                    else {
+                        if (muy < wind12 && mux > wind223) { document.documentElement.style.setProperty('--position-main', "top right"); }
+                    }
+                }
+            }
         }
     }
 }
 
+
+
 var wind = window.innerHeight;
+var wind2 = window.innerWidth;
 var newwind= wind-70
 document.documentElement.style.setProperty('--height-win', newwind + "px");
 
@@ -61,4 +78,39 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
     captionText.innerHTML = dots[slideIndex - 1].alt;
+}
+
+
+
+var wind12 = wind / 2; 
+var wind213 = wind2 / 3;
+var wind223 = wind2 = wind213;
+var mux = event.clientY;
+var muy = event.clientY;
+
+
+
+function movefunc4() {
+    if (muy > wind12 && mux < wind213)
+    { document.documentElement.style.setProperty('--position-main', "top right");}
+        else {
+        if (muy > wind12 && mux < wind223 && mux > wind213)
+        { document.documentElement.style.setProperty('--position-main', "top center");}
+        else {
+            if (muy > wind12 && mux > wind223)
+            { document.documentElement.style.setProperty('--position-main', "top left");}
+                else {
+                if (muy < wind12 && mux < wind213)
+                { document.documentElement.style.setProperty('--position-main', "bottom right");}
+                    else {
+                    if (muy < wind12 && mux < wind223 && mux > wind213)
+                    { document.documentElement.style.setProperty('--position-main', "bottom center");}
+                    else {
+                        if (muy < wind12 && mux > wind223)
+                        { document.documentElement.style.setProperty('--position-main', "bottom left");}
+                    }
+                }
+            }
+        }
+    }
 }
