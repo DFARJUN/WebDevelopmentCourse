@@ -418,10 +418,10 @@ img.savta {
     background-image: url('../Images/buttonlt.png');
     background-position: left;
     background-size: 380px 48px;
-    padding: 2px 26px;
+    padding: 2px 26.5px;
     font-size: 45px;
     text-decoration: none;
-    margin-right: 416px;
+    margin-right: 405px;
 }
 
 #buttonlt:hover {
