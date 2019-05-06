@@ -114,10 +114,15 @@ width: 100%;
 
 /*אינדקציה להמצאות בעמוד*/
 #here {
-    background-color: #ccf2f2;
+    /*background-color: #ccf2f2;*/
+    color:#00c0c0;
     border-bottom: 1px solid #00C0C0;
 }
 
+#secnav ul li a#here
+{
+    color:#00c0c0;
+}
 /*לוגו - קישור לעמוד בית*/
 #maina {
     height: 41px;
@@ -248,10 +253,12 @@ width: 100%;
     width: 960px;
 }
 
+/*פסקה ראשונה בעמודים*/
 .para {
 margin-top:90px;
 }
 
+/*פסקת רווח בעמודים*/
 .para2 {
     height: 50px;
     width: 960px;
@@ -262,8 +269,7 @@ margin-top:90px;
     background-position: center;
 }
 
-
-
+/*יוטיוב*/
 #youtube {
     float: left;
     margin-top: 27px;
@@ -279,7 +285,7 @@ margin-top:90px;
 
 
 
-
+/*משתנים */
 :root {
     --mania-x: 0px;
     --trump-x: 0px;
@@ -290,11 +296,13 @@ margin-top:90px;
     
 }
 
+/*כותרות בעמוד 0 כללי*/
 h1, h2, h3 {
     font-family: 'TsMatka-Bold';
     font-weight: bold;
 }
 
+/*כתרות בעמודים*/
 .paralexc {
     margin-bottom: 10px;
     color: #00c0c0;
@@ -305,6 +313,7 @@ h1, h2, h3 {
     display: inline-block;
 }
 
+/*פסקאות*/
 .paralexp {
     color: #3C3C3C;
     font-size: 16px;
@@ -317,6 +326,7 @@ h1, h2, h3 {
     font-family: Heebo;
 }
 
+/*טראמפ*/
 #trump {
     background-image: url('../Images/photo.png');
     margin-top: 27px;
@@ -353,6 +363,7 @@ h1, h2, h3 {
     background-size: 340px 450px;
 }
 
+
 .paro {
     background-color:white;
     width:960px;
@@ -361,10 +372,12 @@ h1, h2, h3 {
 
 }
 
+/*פסקה על הלמידה*/
 .paro.learnp {
     height:600px;
 }
 
+/*לוגו ראשי*/
 div.mainlogo {
     padding-right: 90pt;
     background-image: url('../Images/onlylogo.png');
@@ -438,7 +451,7 @@ img.savta {
     padding: 2px 26.5px;
     font-size: 45px;
     text-decoration: none;
-    margin-right: 380px;
+    margin-right: 390px;
 }
 
 #buttonlt:hover {
@@ -634,18 +647,22 @@ font-size:37px;
     transition: all 1s ease;
 }
 
+/*הזמנה חתמונה*/
 .winwin {
     height: var(--height-win) ;
 }
 
+/*גודל תמונה חתונה*/
 #weddsize {
     width: var(--width-win);
 }
 
+/*גודל תמונה צופים*/
 #scoutsize {
     width: var(--width-scout);
 }
 
+/*כפתור חוברת מסע*/
 #hamasabutton {
     color: white;
     position: relative;
@@ -659,13 +676,14 @@ font-size:37px;
     margin-right: 33px;
     margin-left: 80px;
 }
-
+/*כפתור חוברת מסע*/
     #hamasabutton:hover {
         color: black;
         background-position: right;
         cursor: pointer;
     }
 
+/*כפתור תמונה פרוייקט*/
 #nohar {
     background-image: url('../Images/buttonlt.png');
     color: white;
@@ -677,13 +695,15 @@ font-size:37px;
     font-family: Heebo;
 }
 
-    #nohar:hover {
+   /*תמונה פרויקט*/
+#nohar:hover {
         color: black;
         background-position: right;
         cursor: pointer;
         
     }
 
+/* תמונה שזזה*/
 #hello {
     background-image: url('../Images/look/2.png');
     background-position: var(--position-main);
@@ -695,6 +715,7 @@ font-size:37px;
     bottom: 335px;
 }
 
+/*סקשן ראשי*/
 #mainsec {
 position:relative;
 left:130px;
