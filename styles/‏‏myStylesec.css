@@ -12,8 +12,8 @@
 /*בודי*/
 body {
     direction: rtl;
-    background: url('../Images/dot.png') fixed,
-        url('../Images/dotted.png');
+    /*background: url('../Images/dot.png') fixed, url('../Images/dotted.png');*/
+    background:  url('../Images/dotted.png');
     background-size: 800px auto;
     background-position: top left;
     scroll-behavior: smooth;
@@ -165,7 +165,7 @@ width: 100%;
 #contactu {
     width: 960px;
     background-color: white;
-    height: 600px;
+    height: 450px;
     margin-top: 90px;
     background-image: url('../Images/coffe.gif');
     background-position-x: 729px;
@@ -290,7 +290,10 @@ margin-top:90px;
     
 }
 
-
+h1, h2, h3 {
+    font-family: 'TsMatka-Bold';
+    font-weight: bold;
+}
 
 .paralexc {
     margin-bottom: 10px;
