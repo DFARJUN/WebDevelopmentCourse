@@ -1,12 +1,15 @@
-
+/*הטמעת גופו מקומי*/
 @font-face {
     font-family: 'TsMatka-Bold';
     src: url('../font/TsMatka-Bold.otf') format('opentype');
     src: url('../font/TsMatka-Bold.ttf') format('truetype');
 }
 
+
+/*גופן גוגל*/
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Heebo:400,500,700|Pacifico&subset=hebrew');
 
+/*בודי*/
 body {
     direction: rtl;
     background: url('../Images/dot.png') fixed,
@@ -16,20 +19,19 @@ body {
     scroll-behavior: smooth;
 }
 
-
+/*הדר*/
 header {
      font-family: 'TsMatka-Bold';
     font-weight: bold;
 }
 
+/*גופן לאנגלית*/
 .en {
     font-weight:700;
     font-family: 'Amatic SC', cursive;
 }
 
-
-
-
+/*גוף מרכזי - 960*/
 #container {
     width: 960px;
     margin: 0 auto;
@@ -37,7 +39,7 @@ header {
     margin-top:75px;
 }
 
-
+/*דיב מכיל גוף*/
 #secdiv {
     display: block;
     width: 960px;
@@ -47,6 +49,7 @@ header {
     position: fixed;
 }
 
+/*ניווט משני (לא עמוד ראשי)*/
 #secnav {
     margin-top: 0px;
     margin-right: 0px;
@@ -54,6 +57,8 @@ header {
     z-index:100;
     top: 00px;
 }
+
+
 
     #secnav ul {
         list-style: none;
@@ -105,13 +110,15 @@ width: 100%;
     -o-transition: all .5s ease;
     transition: all .5s ease;
 }
+/*עיצוב תפריט ניווט*/
 
-
+/*אינדקציה להמצאות בעמוד*/
 #here {
     background-color: #ccf2f2;
     border-bottom: 1px solid #00C0C0;
 }
 
+/*לוגו - קישור לעמוד בית*/
 #maina {
     height: 41px;
     float: right;
@@ -121,7 +128,7 @@ width: 100%;
     background-size: 130px 41px;
 }
 
-
+/*קובץ קורות חיים*/
 #cvfile {
     width: 500px;
     background-color: white;
@@ -132,11 +139,13 @@ width: 100%;
     background-size: 540px 744px;
 }
 
+/*סקשן של הקורות חיים*/
 #cvsec{
     width:500px;
     margin:auto;
 }
 
+/*לוגואים לצור קשר*/
 .contactlogo {
     display:block;
     height: 40px;
@@ -152,6 +161,7 @@ width: 100%;
     background-position: right;
 }
 
+/*סקשן צור קשר כולל תמונה*/
 #contactu {
     width: 960px;
     background-color: white;
@@ -165,6 +175,7 @@ width: 100%;
     z-index:-1;
 }
 
+/*קישורים של הצור קשר*/
 #contactu a {
     float: left;
     font-family: Heebo;
@@ -177,6 +188,7 @@ width: 100%;
     z-index:-1;
 }
 
+/*טקסט בצור קשר*/
 .contactspan {
     padding: 20px 20px;
     position: relative;
@@ -186,11 +198,13 @@ width: 100%;
     font-family: Heebo;
     color: #3C3C3C;
 }
+/*רשימה של הלוגואים*/
 #contactu ol {
     position: relative;
     bottom: 39px;
     left: 50px;
 }
+
 
 #contactu ol li {
     width: 200px;
@@ -681,4 +695,16 @@ font-size:37px;
 #mainsec {
 position:relative;
 left:130px;
+}
+
+/*שיר*/
+#song {
+    position: relative;
+    top: 216px;
+    right: 114px;
+}
+
+#song audio {
+    height:25px;
+
 }
